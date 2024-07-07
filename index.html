@@ -1,72 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Form</title>
-</head>
-<body>
-    <form action="">
-      <fieldset>
-          <legend>Parsonal Data</legend>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card with html and Venila CSS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="card-container">
+        <div class="card1">
+          <img src="image/images.jpeg" alt="" />
 
-          <label for=""> <b>Name :</b></label><br>
-          <input type="text" placeholder="Enter Your Name"  required> <br> <br>
-  
-          <label for=""><b>Email :</b></label> <br>
-          <input type="email" placeholder="programmermdkayum@gmail.com" required> <br>
-          <br>
-  
-          <label for=""><b>Password :</b></label> <br>
-          <input type="password" placeholder="Enter Your Password" required> <br>
-          
-           <br>
-           <label for=""><b>Age :</b></label> <br>
-           <input type="number" name="" id="" placeholder="Enter Your age" max="40" ><br><br>
+          <div class="qualification">
+            <button class="btn">Clasic</button>
+            <button class="btn">Romance</button>
+          </div>
+          <h3>Texas Family Code</h3>
+          <p>By: <span>Kayum X Ten</span></p>
 
-           <label for=""><b>Date of Birth :</b></label> 
-           <input type="date" name="" id=""><br><br>
+          <div class="fiction">
+            <p>Clasic</p>
+            <p>4.3</p>
+          </div>
+        </div>
+        <div class="card1">
+          <img src="image/images (6).jpeg" alt="" />
 
-           <label for=""><b>Gender :</b></label>
-           <input type="radio" name="gender" id="">Male <input type="radio" name="gender" id="">Female <br>
+          <div class="qualification">
+            <button class="btn">Legal</button>
+            <button class="btn">Epic</button>
+          </div>
+          <h3>Queen Anne Houses</h3>
+          <p>By: <span>Queen Anne</span></p>
 
-           <label for=""> <b>Choose your favorite web language : </b></label><br>
-           <input type="checkbox" name="" id=""> HTMl
-           <input type="checkbox" name="" id=""> CSS
-           <input type="checkbox" name="" id=""> JavaScript <br> <br>
-           <label for=""><b>Skill Progress : </b></label>
-           <input type="range" name="" id="" min="0" max="50"> <br> <br>
+          <div class="fiction">
+            <p>Political</p>
+            <p>4.3</p>
+          </div>
+        </div>
+        <div class="card1">
+          <img src="image/images (7).jpeg" alt="" />
 
+          <div class="qualification">
+            <button class="btn">Clasic</button>
+            <button class="btn">Adventure</button>
+          </div>
+          <h3>George W. Marston House</h3>
+          <p>By: <span>George W. Marston</span></p>
 
-            <label for=""><b>Select your favorite Color : </b></label>
-            <input type="color" name="" id="present" oninput="result.value=present.value">
-            <input type="text" name="" id="result" placeholder="click the color 1st and show the color code "><br> <br>
-
-            <label for=""><b>Birthday(Day & Time):</b></label>
-            <input type="datetime-local" name="" id=""> <br><br>
-
-            <label for=""><b>Start an attachment on Month :</b></label>
-            <input type="month" name="" id=""><br><br>
-
-            <label for=""><b>Phone Number : </b></label>
-            <input type="number" name="" id="" placeholder="+8801XXXXXXXXX"><br><br>
-
-            <label for=""><b>Select a file :</b></label> 
-            <input type="file" name="" id=""><br>
-            <br>
-
-            
-            
-            
-            <input type="image" src="/image/img_submit.gif" alt="">
-            <a target="_blank" href="https://www.w3schools.com/html/html_form_input_types.asp">Learn More..</a> <br> <br>
-
-
-            <input type="submit" value="Submit"> 
-            <input type="reset" value="Reset">
-           
-      </fieldset>
-    </form>
-    
-</body>
+          <div class="fiction">
+            <p>Drama</p>
+            <p>4.3</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
