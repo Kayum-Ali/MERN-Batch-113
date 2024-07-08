@@ -46,3 +46,43 @@ p {
   justify-content: space-between;
   padding: 0 20px;
 }
+
+.font {
+  margin: 20px 40px;
+}
+.arial {
+  font-family: "Arial", sans-serif;
+  color: #23be0a;
+}
+.verdana {
+  font-family: "Verdana", sans-serif;
+  color: rgb(90, 152, 152);
+}
+.tahoma {
+  font-family: "Tahoma", sans-serif;
+  color: blueviolet;
+}
+.trebuchet {
+  font-family: "Trebuchet MS", sans-serif;
+  color: rgb(184, 86, 143);
+}
+.times {
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(62, 135, 73);
+}
+.georgia {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(105, 79, 131);
+}
+.garamond {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(226, 165, 43);
+}
+.monospace {
+  font-family: monospace;
+  color: rgb(226, 43, 144);
+}
+.cursive {
+  font-family: cursive;
+  color: rgba(137, 43, 226, 0.638);
+}
